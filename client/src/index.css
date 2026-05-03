@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Fade-in with upward slide animation */
+  .animate-fade-in-up {
+    animation: fadeInUp 300ms ease-out forwards;
+  }
+
+  /* Card hover shadow elevation transition */
+  .card-hover {
+    transition: box-shadow 200ms ease-in-out;
+  }
+  .card-hover:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Tab content fade transition */
+  .tab-fade {
+    transition: opacity 200ms ease-in-out;
+  }
+
+  /* Expand/collapse transition for task panels */
+  .expand-collapse {
+    transition: max-height 250ms ease-in-out, opacity 250ms ease-in-out;
+    overflow: hidden;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
