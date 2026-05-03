@@ -2,6 +2,15 @@
 
 A modern, full-stack task management system built with React and Express.js. This application enables teams to create, manage, and track projects and tasks efficiently with real-time collaboration features.
 
+# Admin creadential
+
+Email :- admin@gmail.com
+Password :- 12345678
+
+# Member creadential
+Email :- ayushmanyan@gmail.com
+Password :- Ayush@123
+
 ## Table of Contents
 
 - [Features](#features)
